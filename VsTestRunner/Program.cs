@@ -11,8 +11,8 @@ namespace VsTestRunner
         {
             args = args.Select(arg => arg.ToLower()).ToArray();
 
-            bool release = args.Contains("release");
             bool x64 = args.Contains("--x64");
+            bool release = args.Contains("--release");
             bool coverage = args.Contains("--coverage");
 
             IEnumerable<string> testBinaries = TestDiscoverer.DiscoverTests(release);
