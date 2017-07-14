@@ -1,9 +1,9 @@
 {
   "name": "vs-test-runner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "bin": {
-    "VsTestRunner": "VsTestRunner/bin/Release/VsTestRunner.exe"
+    "vs-test-runner": "VsTestRunner/bin/Release/VsTestRunner.exe"
   },
   "scripts": {
     "prebuild": "nuget restore",
