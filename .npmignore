@@ -1,0 +1,8 @@
+.vs/
+packages/
+VsTestRunner/*
+VsTestRunner/bin/Debug
+!VsTestRunner/bin/Release
+VsTestRunner.sln
+.gitattributes
+.gitignore

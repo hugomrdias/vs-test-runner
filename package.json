@@ -1,0 +1,22 @@
+{
+  "name": "vs-test-runner",
+  "version": "0.1.0",
+  "description": "",
+  "bin": {
+    "VsTestRunner": "VsTestRunner/bin/Release/VsTestRunner.exe"
+  },
+  "scripts": {
+    "prebuild": "nuget restore",
+    "build": "msbuild /v:minimal /p:Configuration=Release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinphelps/vs-test-runner.git"
+  },
+  "author": "Kevin Phelps <KevinPhelps11@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kevinphelps/vs-test-runner/issues"
+  },
+  "homepage": "https://github.com/kevinphelps/vs-test-runner#readme"
+}
